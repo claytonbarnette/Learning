@@ -17,7 +17,7 @@ then use the following command `docker pull golang` to pull down the golang imag
 
 Once the Docker image was downloaded, I started a terminal, then ran the following command: `docker run -it golang` 
 to get the Go! environment up and running. I found that no editors are installed on this image, so to edit files I
-I installed nano, but you can install the editor of your choice by first doing an `apt update` followed by the 
+installed nano, but you can install the editor of your choice by first doing an `apt update` followed by the 
 commands required to install your editor: `apt install nano` or `apt install vi`. 
 
 
