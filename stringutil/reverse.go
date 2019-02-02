@@ -1,4 +1,6 @@
 // Package stringutil contains utility fuctions for working with strings
+// This is a Library used by hello2.go
+
 package stringutil
 
 
