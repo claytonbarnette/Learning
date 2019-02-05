@@ -2,22 +2,25 @@
 
 ![Learning Go][docker-golang]
 
-This repo contains files from my first steps into Go! Programming language. Like many of the other
-languages that I've learnt over the years, I start with the basics and expand from there. Go! is 
-becoming one of the **Base 6** languages which are used by most of the cloud providers. The Base 6
-languages are *JJPPRG*: Java, Javascript, Python, PHP, Ruby and Go or *JJPPRC* which includes C#. Both
-are valid Base 6 language sets and *"Base 6"* is not an industry term, but is just a term used my me to
-reference the language stacks used in a cloud environment. 
+This repo contains files from my first steps into Go! Programming language. Like learning any other language, I start with the basics and expand from there. 
 
-### Docker
+## The Base 6 Languages
+Go! is what I call a **Base 6**, simply put, these are language stacks that are supported by the different Cloud platform providers such as AWS, Azure, and GCP. The Base 6 languages are _Java, Javascript (_Node_), Python, PHP7, Ruby and Go!_ or *JJPPRG*. There are some language stacks that include C# or other programming languages and environments, but for most platforms the Base 6 languages are supported. 
 
-I used the **golang** official Docker image to get started, this image is located on 
-**[Docker Hub](https://hub.docker.com/_/golang)**. To pull this image, I first installed Docker,
-then use the following command `docker pull golang` to pull down the golang image. 
+## The "Base 6" term:
+The Base 6 language term is not an industry term, but is a term used only by me to identify the language(s) as one(s) that can be used in a Cloud environments. 
 
-Once the Docker image was downloaded, I started a terminal, then ran the following command: `docker run -it golang` 
-to get the Go! environment up and running. I found that no editors are installed on this image, so to edit files I
-installed nano, but you can install the editor of your choice by first doing an `apt update` followed by the 
+## Docker
+
+I used the **golang** official Docker image from **[Docker Hub](https://hub.docker.com/_/golang)** to get started. 
+
+- I first installed **[Docker](https://www.docker.com/)** 
+- Opened up a terminal 
+- Then pulled the **golang** image using the following command: `docker pull golang`
+- Once the Docker image was downloaded, in a terminal, I ran the following command: `docker run -it golang` to start the environment. 
+
+**Note:** I found that no editors were installed on this image, so to edit files I had to
+install nano. To install the editor of your choice, run the following command: `apt update` followed by the 
 commands required to install your editor: `apt install nano` or `apt install vi`. 
 
 
@@ -28,9 +31,11 @@ to include the **`$GOPATH`**. Information on setting that up can be found [here]
 
 ![Linkedin Learning][linkedinlearning]
 
-I completed the **"Up and Running with Go"** course on __Lynda.com__, which is now [Linkedin Learning](https://www.linkedin.com/learning/) 
-with *David Gassner* to help me get upto speed, plus I spent some quality time with the documentation at [https://golang.org](https://golang.org) 
-website. I hope this helps other get started or take a second look at the Go! programming language.
+I completed the **"Up and Running with Go"** course with *David Gassner* on __Lynda.com__, which is now [Linkedin Learning](https://www.linkedin.com/learning/) 
+ to help me get upto speed, plus I spent some quality time with the documentation at [https://golang.org](https://golang.org) 
+website. 
+
+I hope this helps you and other get started or take a second look at the [Go!](https://golang.org) programming language.
   
 
 ![Learning Go][go-logo]
