@@ -1,5 +1,5 @@
-// This version imports the stringutil library expample from the Go website
-// https://golang.org/doc/code.html 
+// This version imports the stringutil library 
+// expample is from the Go website: https://golang.org/doc/code.html 
 
 package main
 
