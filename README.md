@@ -7,8 +7,8 @@ This repo contains files from my first steps into Go! Programming language. Like
 ## The Base 6 Languages
 Go! is what I call a **Base 6 Language**, simply put, these are language stacks that are supported by the different Cloud platform providers such as AWS, Azure, and GCP. These cloud platform providers support a common set of languages used to create cloud applications on there platform. The Base 6 languages are _Java, Javascript (_Node_), Python, PHP7, Ruby and Go!_ or *JJPPRG*. There are some language stacks that also include C# or other programming languages and environments, but for most cloud services platforms the Base 6 languages are supported. 
 
-## Origin of the "Base 6" term:
-The Base 6 language term is not an industry term, but is a term used only by me to identify the language(s) as one(s) that can be used in a Cloud environments. 
+### Origin of the "Base 6 Language" term:
+The Base 6 language term is not an industry term, but is a term used only by me to identify the language(s) as one(s) that can be used in on a certain Cloud service platform. 
 
 ## Docker
 
